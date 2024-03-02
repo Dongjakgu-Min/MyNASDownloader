@@ -37,4 +37,5 @@ def _file_list(url: str, path: str, sid: str):
         file_list.append(item['name'])
         print(item['name'])
 
+    print('---------------------')
     return file_list

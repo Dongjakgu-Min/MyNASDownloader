@@ -15,8 +15,8 @@ def main():
     load_dotenv()
 
     parser = argparse.ArgumentParser(description='NAS File Downloader')
-    parser.add_argument('-F', '--file', help='file path you want to download')
-    parser.add_argument('-M', '--manual', help='find file manually', default=False, action='store_true')
+    parser.add_argument('-f', '--file', help='file path you want to download')
+    parser.add_argument('-m', '--manual', help='find file manually', default=False, action='store_true')
     parser.add_argument('-p', '--path', help='file list path', default=False, required=False)
 
     args = parser.parse_args()
